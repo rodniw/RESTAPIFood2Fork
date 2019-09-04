@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation project(":domain")
+
+    implementation deps.room.runtime
+
+    implementation deps.kotlin.kotlin_jre
+    implementation deps.kotlin.coroutines_core
+    implementation deps.kotlin.coroutines_android
+
+    kapt deps.room.compiler
+
+    testImplementation deps.test.junit
+    testRuntimeOnly deps.test.jupiter_engine
+    testRuntimeOnly deps.test.vintage_engine
+    testImplementation deps.test.mockk
+    testImplementation deps.test.kotlin_junit
+}
