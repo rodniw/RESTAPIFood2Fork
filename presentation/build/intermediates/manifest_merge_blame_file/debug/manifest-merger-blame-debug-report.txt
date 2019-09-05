@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="dev.rodni.ru.restapifood2fork"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:7:22-64
+13
+14    <application
+14-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:9:5-41:19
+15        android:name="dev.rodni.ru.restapifood2fork.FoodToForkApplication"
+15-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:10:9-46
+16        android:allowBackup="true"
+16-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:11:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\4c3c9a144a68fd1054e6716c37db7a13\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:12:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:13:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:14:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:15:9-35
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:16:9-40
+24        <activity
+24-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:18:9-27:20
+25            android:name="dev.rodni.ru.restapifood2fork.launch.LaunchActivity"
+25-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:19:13-50
+26            android:noHistory="true"
+26-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:20:13-37
+27            android:theme="@style/AppTheme.Launch" >
+27-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:21:13-51
+28            <intent-filter>
+28-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:22:13-26:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:23:17-69
+29-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:23:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:25:17-77
+31-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:25:27-74
+32            </intent-filter>
+33        </activity>
+34        <activity
+34-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:28:9-30:59
+35            android:name="dev.rodni.ru.restapifood2fork.home.HomeActivity"
+35-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:29:13-46
+36            android:theme="@style/AppTheme.NoActionBar" />
+36-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:30:13-56
+37        <activity
+37-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:31:9-40:20
+38            android:name="dev.rodni.ru.restapifood2fork.recipe.detail.RecipeActivity"
+38-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:32:13-57
+39            android:label=""
+39-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:33:13-29
+40            android:parentActivityName="dev.rodni.ru.restapifood2fork.home.HomeActivity"
+40-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:34:13-60
+41            android:theme="@style/AppTheme.Recipe" >
+41-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:35:13-51
+42            <meta-data
+42-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:37:13-39:54
+43                android:name="android.support.PARENT_ACTIVITY"
+43-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:38:17-63
+44                android:value=".home.HomeActivity" />
+44-->C:\Users\rodio_000\StudioProjects\RESTAPIFood2Fork\presentation\src\main\AndroidManifest.xml:39:17-51
+45        </activity>
+46
+47        <service
+47-->[androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:23:9-25:40
+48            android:name="androidx.room.MultiInstanceInvalidationService"
+48-->[androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:24:13-74
+49            android:exported="false" />
+49-->[androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:25:13-37
+50
+51        <provider
+51-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:23:9-27:43
+52            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:24:13-79
+53            android:authorities="dev.rodni.ru.restapifood2fork.lifecycle-process"
+53-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:25:13-69
+54            android:exported="false"
+54-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:26:13-37
+55            android:multiprocess="true" />
+55-->[androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:27:13-40
+56    </application>
+57
+58</manifest>

@@ -1,5 +1,6 @@
 package dev.rodni.ru.restapifood2fork
 
+import android.app.Application
 import android.content.Context
 import android.util.Log
 import androidx.multidex.MultiDex
@@ -7,13 +8,9 @@ import com.jakewharton.threetenabp.AndroidThreeTen
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
 
-class FoodToForkApplication: DaggerApplication() {
+class FoodToForkApplication: Application() {
     companion object {
         private const val TAG = "FoodToForkApplication"
-    }
-
-    override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
-        TODO("not implemented")
     }
 
     /**
