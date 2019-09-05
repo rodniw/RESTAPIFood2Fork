@@ -2,17 +2,10 @@
 
 buildscript {
     apply from: 'versions.gradle'
-    //ext.kotlin_version = '1.3.50'
-    //ext.room_version = '2.1.0-alpha01'
-    //ext.navigation_version = '1.0.0-alpha06'
-    //ext.kodein_version = '6.2.1'
-    //ext.lifecycle_version = '2.0.0'
-    //ext.retrofit_version = '2.4.0'
     repositories {
-        google()
-        jcenter()
-
+        addRepos(repositories)
     }
+
     dependencies {
         classpath deps.android_gradle_plugin
         classpath deps.kotlin.kotlin_gradle_plugin
@@ -25,9 +18,7 @@ buildscript {
 
 allprojects {
     repositories {
-        google()
-        jcenter()
-
+        addRepos(repositories)
     }
 }
 

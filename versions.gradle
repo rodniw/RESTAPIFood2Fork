@@ -26,9 +26,16 @@ versions.design = "1.0.0-rc01"
 versions.appcompat = "1.0.0"
 versions.ktx_fragment = "1.0.0"
 versions.rec_view = "1.0.0"
-versions.firebase_auth = "16.1.0"
-versions.firebase_core = "16.0.6"
-versions.firebase_firestore = "17.1.4"
+//versions.firebase_auth = "16.1.0"
+//versions.firebase_core = "16.0.6"
+//versions.firebase_firestore = "17.1.4"
+versions.retrofit = "2.4.0"
+versions.retrofit_coroutines = "0.9.2"
+versions.gson = "2.8.5"
+versions.threetenabp = "1.1.0"
+versions.glide = "4.8.0"
+versions.groupie = "2.3.0"
+versions.preferences = "1.0.0"
 versions.play_services_auth = "16.0.1"
 versions.constraint_layout = "2.0.0-alpha2"
 versions.coroutine_version = "1.0.1"
@@ -56,6 +63,22 @@ def room = [:]
 room.runtime = "androidx.room:room-runtime:$versions.room"
 room.compiler = "androidx.room:room-compiler:$versions.room"
 deps.room = room
+
+def retrofit = [:]
+retrofit.core = "com.squareup.retrofit2:retrofit:$versions.retrofit"
+retrofit.converter_gson = "com.squareup.retrofit2:converter-gson:$versions.retrofit"
+retrofit.kotlin_coroutines_adapter = "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$versions.retrofit_coroutines"
+retrofit.gson = "com.google.code.gson:gson:$versions.gson"
+deps.retrofit = retrofit
+
+def utils = [:]
+utils.threetenbp = "com.jakewharton.threetenabp:threetenabp:$versions.threetenabp"
+utils.glide = "com.github.bumptech.glide:glide:$versions.glide"
+utils.glide_compiler = "com.github.bumptech.glide:compiler:$versions.glide"
+utils.groupie = "com.xwray:groupie:$versions.groupie"
+utils.groupie_kt_extension = "com.xwray:groupie-kotlin-android-extensions:$versions.groupie"
+utils.preferences = "androidx.preference:preference:$versions.preferences"
+deps.utils = utils
 
 def test = [:]
 
