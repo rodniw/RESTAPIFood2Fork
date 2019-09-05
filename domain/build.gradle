@@ -2,7 +2,8 @@ apply plugin: 'java-library'
 apply plugin: 'kotlin'
 
 dependencies {
-    implementation deps.kotlin.coroutines_core
+    //implementation deps.kotlin.coroutines_core
+    implementation deps.rxjava.rxkotlin
 
     testImplementation deps.test.junit
     testImplementation deps.test.mockk
