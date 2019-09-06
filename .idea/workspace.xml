@@ -7,28 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05c7a9a8-7a4f-4eac-ae64-3c3b8e7c78a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RESTAPIFood2Fork.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_retrofit_retrofit2_kotlin_coroutines_adapter_0_9_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_41.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlinx_coroutines_core_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlinx_coroutines_core_common_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_41_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_common_1_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/constants/Constants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/constants/RecipeCategories.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/exception/Exceptions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/PlaceHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/base/UseCase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/local/PlaceHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/PlaceHolder.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/repository/PlaceHolder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -40,117 +23,7 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_rc01_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_rxjava2_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_rc01_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_1_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_6_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxkotlin_2_2_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_1_60.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_stdlib_common_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_annotations_common_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_common_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__kotlin_test_junit_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_2_71_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_50_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_50_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_50_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_41_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_50_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_1_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_reactivestreams_reactive_streams_1_0_2_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__reactive_streams_1_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__rxjava_2_1_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__rxkotlin_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/.transforms/25177de28996312acd0de93e451a0598.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/.transforms/25177de28996312acd0de93e451a0598/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/symbols/debug/R.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/symbols/debug/R.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/domain/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/.transforms/c872eabc66cc7e97249fae66220d58f8.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/PlaceHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/generated/not_namespaced_r_class_sources/debug/r/androidx/room/rxjava2/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/generated/not_namespaced_r_class_sources/debug/r/io/reactivex/android/R.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GM4UTooyrApVzEYS15bB4sMJfds=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/LSDmueZoei0yEbDoInljD_V_3ZA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PN0Or_ETipvdLouYPvTGfiyKHTU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bU0a8EYOcVHeAWOx2201U7pOjT4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fmAYnF03yiRkY1nNI9ofLaef49M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jvMwTc92Yo85EfhDkm+otaPtFWM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/sgcxnT_pihOxfYRY29zfhiX6Ylg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/GM4UTooyrApVzEYS15bB4sMJfds=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/LSDmueZoei0yEbDoInljD_V_3ZA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/PN0Or_ETipvdLouYPvTGfiyKHTU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bU0a8EYOcVHeAWOx2201U7pOjT4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fmAYnF03yiRkY1nNI9ofLaef49M=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/jvMwTc92Yo85EfhDkm+otaPtFWM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/sgcxnT_pihOxfYRY29zfhiX6Ylg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$integer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R$styleable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/androidx/room/rxjava2/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/io/reactivex/android/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$attr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$dimen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$drawable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$id.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$integer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$layout.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$string.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$style.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R$styleable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/androidx/room/rxjava2/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/io/reactivex/android/R.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/androidx/room/rxjava2/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/io/reactivex/android/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/presentation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/dev/rodni/ru/restapifood2fork/FoodToForkApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/dev/rodni/ru/restapifood2fork/FoodToForkApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/src/main/java/dev/rodni/ru/restapifood2fork/internal/util/BaseViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/src/main/java/dev/rodni/ru/restapifood2fork/internal/util/BaseViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,31 +49,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/presentation/src/main/java/dev/rodni/ru/restapifood2fork/internal/util/BaseViewModel.kt">
+        <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
               <folding>
-                <element signature="e#53#292#0" expanded="true" />
+                <element signature="e#38#147#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/PlaceHolder.kt">
+        <entry file="file://$PROJECT_DIR$/versions.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="297">
+              <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#235#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt">
+        <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -233,6 +109,8 @@
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/base/UseCase.kt" />
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/exception/Exceptions.kt" />
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" />
       </list>
     </option>
   </component>
@@ -293,6 +171,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="remote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
@@ -521,6 +419,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567708499961</updated>
     </task>
+    <task id="LOCAL-00001" summary="domain layer empty structure created.">
+      <created>1567765422752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567765422752</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -550,6 +456,10 @@
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="domain layer empty structure created." />
+    <option name="LAST_COMMIT_MESSAGE" value="domain layer empty structure created." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/settings.gradle">
@@ -618,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/base/UseCase.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/exception/Exceptions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -653,16 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versions.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/presentation/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-382">
@@ -670,9 +563,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/PlaceHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/PlaceHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/base/UseCase.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
+        <state relative-caret-position="68">
           <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
@@ -687,17 +608,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/PlaceHolder.kt">
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/local/PlaceHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt">
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/repository/PlaceHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="6" selection-start-line="3" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="e#38#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="69" column="2" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
