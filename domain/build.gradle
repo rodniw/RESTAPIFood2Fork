@@ -2,13 +2,13 @@ apply plugin: 'java-library'
 apply plugin: 'kotlin'
 
 dependencies {
-    //implementation deps.kotlin.coroutines_core
-    implementation deps.rxjava.rxkotlin
+    //implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation deps.kotlin.coroutines_core
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.3.41"
 
     testImplementation deps.test.junit
     testImplementation deps.test.mockk
-    testImplementation deps.test.kotlin_junit
 }
 
-sourceCompatibility = "1.8"
-targetCompatibility = "1.8"
+sourceCompatibility = "8"
+targetCompatibility = "8"

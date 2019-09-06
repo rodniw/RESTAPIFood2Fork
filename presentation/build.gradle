@@ -61,8 +61,8 @@ dependencies {
     implementation deps.dagger.core
     implementation deps.dagger.android_support
 
-    implementation deps.rxjava.rxkotlin
-    implementation deps.rxjava.rxandroid
+    //implementation deps.rxjava.rxkotlin
+    //implementation deps.rxjava.rxandroid
 
     //implementation deps.retrofit.core
     //implementation deps.retrofit.converter_gson
@@ -82,9 +82,9 @@ dependencies {
     //implementation deps.firebase.firestore
     //implementation deps.play_services.auth
 
-    //implementation deps.kotlin.kotlin_jre
-    //implementation deps.kotlin.coroutines_core
-    //implementation deps.kotlin.coroutines_android
+    implementation deps.kotlin.kotlin_jre
+    implementation deps.kotlin.coroutines_core
+    implementation deps.kotlin.coroutines_android
 
     implementation deps.android.appcompat
     implementation deps.android.constraint_layout
