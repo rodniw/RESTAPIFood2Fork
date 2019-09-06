@@ -10,7 +10,7 @@ public final class FoodToForkApplication extends android.app.Application {
     /**
      * Versions of the platform prior to Android 5.0 (API level 21) use the Dalvik runtime for executing app code.
      * By default, Dalvik limits apps to a single classes.dex bytecode file per APK.
-     * In order to get around this limitation, we can add the multidex support library to project.
+     * In order to get around this limitation, i add the multidex support library to project.
      */
     @java.lang.Override()
     protected void attachBaseContext(@org.jetbrains.annotations.Nullable()

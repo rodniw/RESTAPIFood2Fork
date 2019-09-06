@@ -17,10 +17,8 @@ MERGED from [com.github.bumptech.glide:glide:4.8.0] C:\Users\rodio_000\.gradle\c
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\80957b3635333dcdd4a3bb619c8a72e7\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.xwray:groupie:2.3.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\9986d7cb009d4d2f2aeb52ea9e4edf0f\groupie-2.3.0\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\44b1c5c7553cca17da261b0610bfda75\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5aa73216240dd1da55b2c9e98182f79\room-rxjava2-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:17:1-28:12
 MERGED from [com.google.dagger:dagger-android:2.22] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\96a0f7898bb014d652821b92b783d485\jetified-dagger-android-2.22\AndroidManifest.xml:17:1-22:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\fadc3fe412e8ae822765ea7ce6dd3e33\rxandroid-2.1.1\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5215ad18ca67e17edf6b8db9b5b551a\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\26ced63c26244fa48a6081d9b756607c\threetenabp-1.1.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\436798406bd788bb93dbb64a759b7c91\lifecycle-process-2.0.0-rc01\AndroidManifest.xml:17:1-30:12
@@ -195,14 +193,10 @@ MERGED from [com.xwray:groupie:2.3.0] C:\Users\rodio_000\.gradle\caches\transfor
 MERGED from [com.xwray:groupie:2.3.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\9986d7cb009d4d2f2aeb52ea9e4edf0f\groupie-2.3.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\44b1c5c7553cca17da261b0610bfda75\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\44b1c5c7553cca17da261b0610bfda75\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5aa73216240dd1da55b2c9e98182f79\room-rxjava2-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-rxjava2:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5aa73216240dd1da55b2c9e98182f79\room-rxjava2-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.1.0-alpha01] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\ccff240ca524a15b2a7f0f98cac35ffc\room-runtime-2.1.0-alpha01\AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android:2.22] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\96a0f7898bb014d652821b92b783d485\jetified-dagger-android-2.22\AndroidManifest.xml:20:5-44
 MERGED from [com.google.dagger:dagger-android:2.22] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\96a0f7898bb014d652821b92b783d485\jetified-dagger-android-2.22\AndroidManifest.xml:20:5-44
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\fadc3fe412e8ae822765ea7ce6dd3e33\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\fadc3fe412e8ae822765ea7ce6dd3e33\rxandroid-2.1.1\AndroidManifest.xml:18:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5215ad18ca67e17edf6b8db9b5b551a\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\a5215ad18ca67e17edf6b8db9b5b551a\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.jakewharton.threetenabp:threetenabp:1.1.0] C:\Users\rodio_000\.gradle\caches\transforms-2\files-2.1\26ced63c26244fa48a6081d9b756607c\threetenabp-1.1.0\AndroidManifest.xml:5:5-44

@@ -47,6 +47,13 @@ android {
 dependencies {
     implementation project(":domain")
 
+    //"com.squareup.retrofit2:converter-moshi:$retrofitVersion"
+    //implementation "com.squareup.moshi:moshi-kotlin:1.5.0"
+    //implementation "com.serjltt.moshi:moshi-lazy-adapters:2.1.0"
+
+    //moshiVersion = '1.5.+'
+    //moshiLazyAdapterVersion = '2.1'
+
     //implementation deps.rxjava.rxkotlin
     implementation deps.kotlin.coroutines_core
 
@@ -54,10 +61,13 @@ dependencies {
     //implementation deps.room.rxjava
 
     implementation deps.retrofit.core
-    implementation deps.retrofit.converter_gson
+    //implementation deps.retrofit.converter_gson
     //implementation deps.retrofit.rxjava_retrofit_adapter
+    implementation deps.retrofit.moshi_core
+    implementation deps.retrofit.moshi_converter
+    implementation deps.retrofit.moshi_lazy_adapter
     implementation deps.retrofit.kotlin_coroutines_adapter
-    implementation deps.retrofit.gson
+    //implementation deps.retrofit.gson
     implementation deps.retrofit.logging_interceptor
 
     implementation deps.dagger.core
