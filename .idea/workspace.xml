@@ -6,17 +6,9 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c7a9a8-7a4f-4eac-ae64-3c3b8e7c78a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_serjltt_moshi_moshi_lazy_adapters_2_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_moshi_2_3_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_1_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_50_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeService.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/util/MoshiConverters.kt" afterDir="false" />
+    <list default="true" id="05c7a9a8-7a4f-4eac-ae64-3c3b8e7c78a0" name="Default Changelist" comment="models">
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/RecipeModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/RecipeRepository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -28,144 +20,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_41_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_50_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_41_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_50_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_annotations_common_1_3_41_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_41_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_common_1_3_50_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_test_junit_1_3_41_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/data/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/compile_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/full_jar/debug/createFullJarDebug/full.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/full_jar/debug/createFullJarDebug/full.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/META-INF/data_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/META-INF/data_debug.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/library_java_res/debug/res.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/library_java_res/debug/res.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/intermediates/runtime_library_classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/outputs/aar/data-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/outputs/aar/data-debug.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/data/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/kotlin/domainjar-classes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/kotlin/domainjar-classes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/build/libs/domain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/domain/build/libs/domain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/generated/not_namespaced_r_class_sources/debug/r/dev/rodni/ru/data/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/generated/not_namespaced_r_class_sources/debug/r/dev/rodni/ru/data/R.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ALSx4tuTkux81TmQogftb6NmMKc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ALSx4tuTkux81TmQogftb6NmMKc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ljp0KoqKt3mRqG0wi+NSaFdEEMc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/R9WHiFuUgKMTmoqY0I4PUzhogE0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kwuLtTwXp6BJ_mp0QchyKNMLCfw=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kwuLtTwXp6BJ_mp0QchyKNMLCfw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ALSx4tuTkux81TmQogftb6NmMKc=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ALSx4tuTkux81TmQogftb6NmMKc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ljp0KoqKt3mRqG0wi+NSaFdEEMc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/R9WHiFuUgKMTmoqY0I4PUzhogE0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kwuLtTwXp6BJ_mp0QchyKNMLCfw=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kwuLtTwXp6BJ_mp0QchyKNMLCfw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/jpQkNBQCWFQmxhCOqbgMRSeSezE=" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/jpQkNBQCWFQmxhCOqbgMRSeSezE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$attr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$dimen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/jacoco_instrumented_classes/debug/jacocoDebug/out/dev/rodni/ru/data/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$attr.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$attr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$color.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$color.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$dimen.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$dimen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$drawable.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$drawable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$id.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$id.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$integer.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$integer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$layout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$string.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$string.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$style.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$style.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$styleable.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R$styleable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R.class" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/javac/debug/classes/dev/rodni/ru/data/R.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$attr.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$attr.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$color.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$color.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$dimen.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$dimen.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$drawable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$drawable.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$id.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$id.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$integer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$integer.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$layout.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$layout.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$string.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$string.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$style.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$style.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$styleable.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R$styleable.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R.dex" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/intermediates/transforms/dexBuilder/debug/0/dev/rodni/ru/data/R.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/kotlin/kaptGenerateStubsDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/outputs/apk/debug/presentation-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/outputs/apk/debug/presentation-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-entries.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/incApCache/debug/classpath-structure.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/stubs/debug/dev/rodni/ru/restapifood2fork/FoodToForkApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/stubs/debug/dev/rodni/ru/restapifood2fork/FoodToForkApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/build/tmp/kapt3/stubs/debug/dev/rodni/ru/restapifood2fork/FoodToForkApplication.kapt_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/build/tmp/kapt3/stubs/debug/dev/rodni/ru/restapifood2fork/FoodToForkApplication.kapt_metadata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/presentation/presentation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/presentation/presentation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/versions.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/versions.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/domain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/domain/domain.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -190,44 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/versions.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/RecipeRepository.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-              <folding>
-                <element signature="e#38#675#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt">
+        <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/RecipeModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="102">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -238,6 +71,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -258,12 +92,14 @@
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/usecase/base/UseCase.kt" />
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/exception/Exceptions.kt" />
         <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/ResultWrapper.kt" />
-        <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" />
         <option value="$PROJECT_DIR$/data/build.gradle" />
         <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/util/MoshiConverters.kt" />
         <option value="$PROJECT_DIR$/versions.gradle" />
         <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeService.kt" />
         <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt" />
+        <option value="$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/RecipeModel.kt" />
+        <option value="$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/RecipeRepository.kt" />
       </list>
     </option>
   </component>
@@ -283,6 +119,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,17 +181,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="remote" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="data" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
@@ -409,6 +236,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="domain" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -422,63 +259,10 @@
               <item name="usecase" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restapifood2fork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RESTAPIFood2Fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RESTAPIFood2Fork" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="presentation" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -605,7 +389,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3260212" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3260212" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -619,7 +403,7 @@
       <window_info anchor="bottom" id="Find" order="3" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Build" order="6" visible="true" weight="0.29787233" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.29787233" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Preview" order="0" />
       <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
@@ -656,20 +440,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response/ErrorStatus.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response.kt" />
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response/ErrorStatus.kt" />
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/PlaceHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -677,30 +449,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/mapper/PlaceHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response/ErrorModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/mapper/CloudErrorMapper.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="48" column="69" lean-forward="true" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
-          <folding>
-            <element signature="e#34#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/mapper/PlaceHolder.kt" />
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/response/ErrorModel.kt" />
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/mapper/CloudErrorMapper.kt" />
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/exception/Exceptions.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -781,20 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/util/MoshiConverters.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -819,16 +556,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/versions.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeService.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -839,13 +566,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versions.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/api/RecipeApi.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="70">
           <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="e#38#675#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/src/main/java/dev/rodni/ru/data/remote/model/RecipeRemoteModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/model/RecipeModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domain/src/main/java/dev/rodni/ru/domain/repository/RecipeRepository.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
