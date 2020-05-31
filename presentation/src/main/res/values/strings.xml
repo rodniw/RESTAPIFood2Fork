@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">RESTAPIFood2Fork</string>
-    <string name="api_key">ef29eef7e0f35a6adc73db1e6bccbfd6</string>
-    <string name="base_url">https://www.food2fork.com</string>
-    <string name="check_internet_connectivity">Please check your network connection…</string>
-</resources>

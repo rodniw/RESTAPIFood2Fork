@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0091D7</color>
+    <color name="colorPrimaryBlue">#0091D7</color>
+    <color name="colorAccentGrey">#0091D7</color>
+    <color name="AccentGrey">#F5F5F5</color>
+    <color name="DarkerGrey">#1F000000</color>
+    <color name="GreyForText">#9C9C9C</color>
+    <color name="WarningTextColor">#F31212</color>
+
+    <color name="NightModeGraphic">#0091D7</color>
+    <color name="NoColor">#07000000</color>
+
+    <color name="disabled_color">#9C9C9C</color>
+
+    <color name="Black">#000000</color>
+</resources>

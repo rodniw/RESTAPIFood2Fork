@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/RESTAPIFood2Fork.iml" filepath="$PROJECT_DIR$/.idea/RESTAPIFood2Fork.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
-      <module fileurl="file://$PROJECT_DIR$/presentation/presentation.iml" filepath="$PROJECT_DIR$/presentation/presentation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RESTAPIFood2Fork.iml" filepath="$PROJECT_DIR$/.idea/RESTAPIFood2Fork.iml" group="RESTAPIFood2Fork" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/RESTAPIFood2Fork-mobile.iml" filepath="$PROJECT_DIR$/mobile/RESTAPIFood2Fork-mobile.iml" group="RESTAPIFood2Fork/mobile" />
+      <module fileurl="file://$PROJECT_DIR$/mobile/mobile.iml" filepath="$PROJECT_DIR$/mobile/mobile.iml" group="RESTAPIFood2Fork/mobile" />
     </modules>
   </component>
 </project>
